@@ -18,5 +18,5 @@ else {
   style.id = id;
   if (style.styleSheet) style.styleSheet.cssText = odmcss;
   else style.appendChild(document.createTextNode(odmcss));
-  document.head.appendChild(style);
+    document.head.appendChild(style);
 }
